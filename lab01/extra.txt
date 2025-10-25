@@ -1,0 +1,624 @@
+a=1, b=0: dkd nd htid
+
+a=1, b=1: cjc mc gshc
+
+a=1, b=2: bib lb frgb
+
+a=1, b=3: aha ka eqfa
+
+a=1, b=4: zgz jz dpez
+
+a=1, b=5: yfy iy cody
+
+a=1, b=6: xex hx bncx
+
+a=1, b=7: wdw gw ambw
+
+a=1, b=8: vcv fv zlav
+
+a=1, b=9: ubu eu ykzu
+
+a=1, b=10: tat dt xjyt
+
+a=1, b=11: szs cs wixs
+
+a=1, b=12: ryr br vhwr
+
+a=1, b=13: qxq aq ugvq
+
+a=1, b=14: pwp zp tfup
+
+a=1, b=15: ovo yo seto
+
+a=1, b=16: nun xn rdsn
+
+a=1, b=17: mtm wm qcrm
+
+a=1, b=18: lsl vl pbql
+
+a=1, b=19: krk uk oapk
+
+a=1, b=20: jqj tj nzoj
+
+a=1, b=21: ipi si myni
+
+a=1, b=22: hoh rh lxmh
+
+a=1, b=23: gng qg kwlg
+
+a=1, b=24: fmf pf jvkf
+
+a=1, b=25: ele oe iuje
+
+a=3, b=0: bmb nb lpub
+
+a=3, b=1: sds es cgls
+
+a=3, b=2: juj vj txcj
+
+a=3, b=3: ala ma kota
+
+a=3, b=4: rcr dr bfkr
+
+a=3, b=5: iti ui swbi
+
+a=3, b=6: zkz lz jnsz
+
+a=3, b=7: qbq cq aejq
+
+a=3, b=8: hsh th rvah
+
+a=3, b=9: yjy ky imry
+
+a=3, b=10: pap bp zdip
+
+a=3, b=11: grg sg quzg
+
+a=3, b=12: xix jx hlqx
+
+a=3, b=13: ozo ao ycho
+
+a=3, b=14: fqf rf ptyf
+
+a=3, b=15: whw iw gkpw
+
+a=3, b=16: nyn zn xbgn
+
+a=3, b=17: epe qe osxe
+
+a=3, b=18: vgv hv fjov
+
+a=3, b=19: mxm ym wafm
+
+a=3, b=20: dod pd nrwd
+
+a=3, b=21: ufu gu einu
+
+a=3, b=22: lwl xl vzel
+
+a=3, b=23: cnc oc mqvc
+
+a=3, b=24: tet ft dhmt
+
+a=3, b=25: kvk wk uydk
+
+a=5, b=0: lcl nl rjml
+
+a=5, b=1: qhq sq worq
+
+a=5, b=2: vmv xv btwv
+
+a=5, b=3: ara ca gyba
+
+a=5, b=4: fwf hf ldgf
+
+a=5, b=5: kbk mk qilk
+
+a=5, b=6: pgp rp vnqp
+
+a=5, b=7: ulu wu asvu
+
+a=5, b=8: zqz bz fxaz
+
+a=5, b=9: eve ge kcfe
+
+a=5, b=10: jaj lj phkj
+
+a=5, b=11: ofo qo umpo
+
+a=5, b=12: tkt vt zrut
+
+a=5, b=13: ypy ay ewzy
+
+a=5, b=14: dud fd jbed
+
+a=5, b=15: izi ki ogji
+
+a=5, b=16: nen pn tlon
+
+a=5, b=17: sjs us yqts
+
+a=5, b=18: xox zx dvyx
+
+a=5, b=19: ctc ec iadc
+
+a=5, b=20: hyh jh nfih
+
+a=5, b=21: mdm om sknm
+
+a=5, b=22: rir tr xpsr
+
+a=5, b=23: wnw yw cuxw
+
+a=5, b=24: bsb db hzcb
+
+a=5, b=25: gxg ig mehg
+
+a=7, b=0: tut nt bzqt
+
+a=7, b=1: efe ye mkbe
+
+a=7, b=2: pqp jp xvmp
+
+a=7, b=3: aba ua igxa
+
+a=7, b=4: lml fl tril
+
+a=7, b=5: wxw qw ectw
+
+a=7, b=6: hih bh pneh
+
+a=7, b=7: sts ms ayps
+
+a=7, b=8: ded xd ljad
+
+a=7, b=9: opo io wulo
+
+a=7, b=10: zaz tz hfwz
+
+a=7, b=11: klk ek sqhk
+
+a=7, b=12: vwv pv dbsv
+
+a=7, b=13: ghg ag omdg
+
+a=7, b=14: rsr lr zxor
+
+a=7, b=15: cdc wc kizc
+
+a=7, b=16: non hn vtkn
+
+a=7, b=17: yzy sy gevy
+
+a=7, b=18: jkj dj rpgj
+
+a=7, b=19: uvu ou caru
+
+a=7, b=20: fgf zf nlcf
+
+a=7, b=21: qrq kq ywnq
+
+a=7, b=22: bcb vb jhyb
+
+a=7, b=23: mnm gm usjm
+
+a=7, b=24: xyx rx fdux
+
+a=7, b=25: iji ci qofi
+
+a=9, b=0: jej nj vfyj
+
+a=9, b=1: gbg kg scvg
+
+a=9, b=2: dyd hd pzsd
+
+a=9, b=3: ava ea mwpa
+
+a=9, b=4: xsx bx jtmx
+
+a=9, b=5: upu yu gqju
+
+a=9, b=6: rmr vr dngr
+
+a=9, b=7: ojo so akdo
+
+a=9, b=8: lgl pl xhal
+
+a=9, b=9: idi mi uexi
+
+a=9, b=10: faf jf rbuf
+
+a=9, b=11: cxc gc oyrc
+
+a=9, b=12: zuz dz lvoz
+
+a=9, b=13: wrw aw islw
+
+a=9, b=14: tot xt fpit
+
+a=9, b=15: qlq uq cmfq
+
+a=9, b=16: nin rn zjcn
+
+a=9, b=17: kfk ok wgzk
+
+a=9, b=18: hch lh tdwh
+
+a=9, b=19: eze ie qate
+
+a=9, b=20: bwb fb nxqb
+
+a=9, b=21: yty cy kuny
+
+a=9, b=22: vqv zv hrkv
+
+a=9, b=23: sns ws eohs
+
+a=9, b=24: pkp tp blep
+
+a=9, b=25: mhm qm yibm
+
+a=11, b=0: fif nf dxwf
+
+a=11, b=1: mpm um kedm
+
+a=11, b=2: twt bt rlkt
+
+a=11, b=3: ada ia ysra
+
+a=11, b=4: hkh ph fzyh
+
+a=11, b=5: oro wo mgfo
+
+a=11, b=6: vyv dv tnmv
+
+a=11, b=7: cfc kc autc
+
+a=11, b=8: jmj rj hbaj
+
+a=11, b=9: qtq yq oihq
+
+a=11, b=10: xax fx vpox
+
+a=11, b=11: ehe me cwve
+
+a=11, b=12: lol tl jdcl
+
+a=11, b=13: svs as qkjs
+
+a=11, b=14: zcz hz xrqz
+
+a=11, b=15: gjg og eyxg
+
+a=11, b=16: nqn vn lfen
+
+a=11, b=17: uxu cu smlu
+
+a=11, b=18: beb jb ztsb
+
+a=11, b=19: ili qi gazi
+
+a=11, b=20: psp xp nhgp
+
+a=11, b=21: wzw ew uonw
+
+a=11, b=22: dgd ld bvud
+
+a=11, b=23: knk sk icbk
+
+a=11, b=24: rur zr pjir
+
+a=11, b=25: yby gy wqpy
+
+a=15, b=0: vsv nv xdev
+
+a=15, b=1: olo go qwxo
+
+a=15, b=2: heh zh jpqh
+
+a=15, b=3: axa sa cija
+
+a=15, b=4: tqt lt vbct
+
+a=15, b=5: mjm em ouvm
+
+a=15, b=6: fcf xf hnof
+
+a=15, b=7: yvy qy aghy
+
+a=15, b=8: ror jr tzar
+
+a=15, b=9: khk ck mstk
+
+a=15, b=10: dad vd flmd
+
+a=15, b=11: wtw ow yefw
+
+a=15, b=12: pmp hp rxyp
+
+a=15, b=13: ifi ai kqri
+
+a=15, b=14: byb tb djkb
+
+a=15, b=15: uru mu wcdu
+
+a=15, b=16: nkn fn pvwn
+
+a=15, b=17: gdg yg iopg
+
+a=15, b=18: zwz rz bhiz
+
+a=15, b=19: sps ks uabs
+
+a=15, b=20: lil dl ntul
+
+a=15, b=21: ebe we gmne
+
+a=15, b=22: xux px zfgx
+
+a=15, b=23: qnq iq syzq
+
+a=15, b=24: jgj bj lrsj
+
+a=15, b=25: czc uc eklc
+
+a=17, b=0: rwr nr fvcr
+
+a=17, b=1: uzu qu iyfu
+
+a=17, b=2: xcx tx lbix
+
+a=17, b=3: afa wa oela
+
+a=17, b=4: did zd rhod
+
+a=17, b=5: glg cg ukrg
+
+a=17, b=6: joj fj xnuj
+
+a=17, b=7: mrm im aqxm
+
+a=17, b=8: pup lp dtap
+
+a=17, b=9: sxs os gwds
+
+a=17, b=10: vav rv jzgv
+
+a=17, b=11: ydy uy mcjy
+
+a=17, b=12: bgb xb pfmb
+
+a=17, b=13: eje ae sipe
+
+a=17, b=14: hmh dh vlsh
+
+a=17, b=15: kpk gk yovk
+
+a=17, b=16: nsn jn bryn
+
+a=17, b=17: qvq mq eubq
+
+a=17, b=18: tyt pt hxet
+
+a=17, b=19: wbw sw kahw
+
+a=17, b=20: zez vz ndkz
+
+a=17, b=21: chc yc qgnc
+
+a=17, b=22: fkf bf tjqf
+
+a=17, b=23: ini ei wmti
+
+a=17, b=24: lql hl zpwl
+
+a=17, b=25: oto ko cszo
+
+a=19, b=0: hgh nh zbkh
+
+a=19, b=1: wvw cw oqzw
+
+a=19, b=2: lkl rl dfol
+
+a=19, b=3: aza ga suda
+
+a=19, b=4: pop vp hjsp
+
+a=19, b=5: ede ke wyhe
+
+a=19, b=6: tst zt lnwt
+
+a=19, b=7: ihi oi acli
+
+a=19, b=8: xwx dx prax
+
+a=19, b=9: mlm sm egpm
+
+a=19, b=10: bab hb tveb
+
+a=19, b=11: qpq wq iktq
+
+a=19, b=12: fef lf xzif
+
+a=19, b=13: utu au moxu
+
+a=19, b=14: jij pj bdmj
+
+a=19, b=15: yxy ey qsby
+
+a=19, b=16: nmn tn fhqn
+
+a=19, b=17: cbc ic uwfc
+
+a=19, b=18: rqr xr jlur
+
+a=19, b=19: gfg mg yajg
+
+a=19, b=20: vuv bv npyv
+
+a=19, b=21: kjk qk cenk
+
+a=19, b=22: zyz fz rtcz
+
+a=19, b=23: ono uo giro
+
+a=19, b=24: dcd jd vxgd
+
+a=19, b=25: srs ys kmvs
+
+a=21, b=0: pyp np jrop
+
+a=21, b=1: ktk ik emjk
+
+a=21, b=2: fof df zhef
+
+a=21, b=3: aja ya ucza
+
+a=21, b=4: vev tv pxuv
+
+a=21, b=5: qzq oq kspq
+
+a=21, b=6: lul jl fnkl
+
+a=21, b=7: gpg eg aifg
+
+a=21, b=8: bkb zb vdab
+
+a=21, b=9: wfw uw qyvw
+
+a=21, b=10: rar pr ltqr
+
+a=21, b=11: mvm km golm
+
+a=21, b=12: hqh fh bjgh
+
+a=21, b=13: clc ac webc
+
+a=21, b=14: xgx vx rzwx
+
+a=21, b=15: sbs qs murs
+
+a=21, b=16: nwn ln hpmn
+
+a=21, b=17: iri gi ckhi
+
+a=21, b=18: dmd bd xfcd
+
+a=21, b=19: yhy wy saxy
+
+a=21, b=20: tct rt nvst
+
+a=21, b=21: oxo mo iqno
+
+a=21, b=22: jsj hj dlij
+
+a=21, b=23: ene ce ygde
+
+a=21, b=24: ziz xz tbyz
+
+a=21, b=25: udu su owtu
+
+a=23, b=0: zoz nz plgz
+
+a=23, b=1: ixi wi yupi
+
+a=23, b=2: rgr fr hdyr
+
+a=23, b=3: apa oa qmha
+
+a=23, b=4: jyj xj zvqj
+
+a=23, b=5: shs gs iezs
+
+a=23, b=6: bqb pb rnib
+
+a=23, b=7: kzk yk awrk
+
+a=23, b=8: tit ht jfat
+
+a=23, b=9: crc qc sojc
+
+a=23, b=10: lal zl bxsl
+
+a=23, b=11: uju iu kgbu
+
+a=23, b=12: dsd rd tpkd
+
+a=23, b=13: mbm am cytm
+
+a=23, b=14: vkv jv lhcv
+
+a=23, b=15: ete se uqle
+
+a=23, b=16: ncn bn dzun
+
+a=23, b=17: wlw kw midw
+
+a=23, b=18: fuf tf vrmf
+
+a=23, b=19: odo co eavo
+
+a=23, b=20: xmx lx njex
+
+a=23, b=21: gvg ug wsng
+
+a=23, b=22: pep dp fbwp
+
+a=23, b=23: yny my okfy
+
+a=23, b=24: hwh vh xtoh
+
+a=23, b=25: qfq eq gcxq
+
+a=25, b=0: xqx nx thsx
+
+a=25, b=1: yry oy uity
+
+a=25, b=2: zsz pz vjuz
+
+a=25, b=3: ata qa wkva
+
+a=25, b=4: bub rb xlwb
+
+a=25, b=5: cvc sc ymxc
+
+a=25, b=6: dwd td znyd
+
+a=25, b=7: exe ue aoze
+
+a=25, b=8: fyf vf bpaf
+
+a=25, b=9: gzg wg cqbg
+
+a=25, b=10: hah xh drch
+
+a=25, b=11: ibi yi esdi
+
+a=25, b=12: jcj zj ftej
+
+a=25, b=13: kdk ak gufk
+
+a=25, b=14: lel bl hvgl
+
+a=25, b=15: mfm cm iwhm
+
+a=25, b=16: ngn dn jxin
+
+a=25, b=17: oho eo kyjo
+
+a=25, b=18: pip fp lzkp
+
+a=25, b=19: qjq gq malq
+
+a=25, b=20: rkr hr nbmr
+
+a=25, b=21: sls is ocns
+
+a=25, b=22: tmt jt pdot
+
+a=25, b=23: unu ku qepu
+
+a=25, b=24: vov lv rfqv
+
+a=25, b=25: wpw mw sgrw
+
