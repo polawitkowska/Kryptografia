@@ -4,55 +4,23 @@ import sys
 
 alfabet = list("abcdefghijklmnopqrstuvwxyz")
 
-# odczytywanie pliku z tekstem jawnym
-def readPlain():
+# odczytywanie pliku
+def read_file(file):
     try:
-        with open("plain.txt", "r") as plain:
-            return plain.read().lower()
+        with open(file, "r") as f:
+            return f.read().lower()
     except FileNotFoundError:
-        print("Nie znaleziono pliku z tekstem jawnym.")
+        print("Nie znaleziono pliku", file)
         sys.exit(1)
 
-
-# odczytywanie pliku z tekstem zaszyfrowanym
-def readCrypto():
+# zapisywanie tekstu do pliku
+def write_file(text, file):
     try:
-        with open("crypto.txt", "r") as crypto:
-            return crypto.read().lower()
-    except FileNotFoundError:
-        print("Nie znaleziono pliku z tekstem zaszyfrowanym.")
-        sys.exit(1)
-
-
-# odczytywanie pliku z kluczami
-def readKey():
-    try:
-        with open("key.txt", "r") as key:
-            return key.read().split()
-    except FileNotFoundError:
-        print("Nie znaleziono pliku z kluczem.")
-        sys.exit(1)
-
-
-# zapisywanie zaszyfrowanego tekstu do pliku
-def writeCrypt(t):
-    try:
-        with open("crypto.txt", "w") as crypto:
-            crypto.write(t)
+        with open(file, "w") as f:
+            f.write(text)
     except OSError as e:
         print(f"Wystąpił błąd podczas zapisywania tekstu do pliku: {e}")
         sys.exit(1)
-
-
-# zapisywanie odszyfrowanego tekstu do pliku
-def writeDecrypt(t):
-    try:
-        with open("decrypt.txt", "w") as decrypt:
-            decrypt.write(t)
-    except OSError as e:
-        print(f"Wystąpił błąd podczas zapisywania tekstu do pliku: {e}")
-        sys.exit(1)
-
 
 # region funkcje cezara
 def eCezar(k, x):
@@ -62,7 +30,7 @@ def eCezar(k, x):
             text.append(alfabet[(alfabet.index(char) + int(k)) % 26])
         else:
             text.append(char)
-    writeCrypt("".join(text))
+    write_file("".join(text), "crypto.txt")
 
 
 def dCezar(k, y):
@@ -72,17 +40,16 @@ def dCezar(k, y):
             text.append(alfabet[(alfabet.index(char) - int(k)) % 26])
         else:
             text.append(char)
-    writeDecrypt("".join(text))
+    write_file("".join(text), "decrypt.txt")
 
 
 def jCezar():
-    plain = readPlain()
-    crypto = readCrypto()
+    plain = read_file("plain.txt")
+    crypto = read_file("crypto.txt")
     for p, c in zip(plain, crypto):
         if p in alfabet and c in alfabet:
             k = (alfabet.index(c) - alfabet.index(p)) % 26
-            with open("key-found.txt", "w") as key_found:
-                key_found.write(str(k))
+            write_file(str(k), "key-found.txt")
             dCezar(k, crypto)
             return
     print("Nie udało się znaleźć klucza.")
@@ -90,7 +57,7 @@ def jCezar():
 
 
 def kCezar():
-    crypto = readCrypto()
+    crypto = read_file("crypto.txt")
     try:
         with open("extra.txt", "w") as extra:
             for k in range(1, 26):
@@ -104,8 +71,6 @@ def kCezar():
     except OSError as e:
         print(f"Wystąpił błąd podczas zapisywania do pliku: {e}")
         sys.exit(1)
-
-
 # endregion
 
 # region funkcje afiniczny
@@ -115,7 +80,6 @@ def mod_inverse(a, m):
             return i
     return None
 
-
 def eAfiniczny(a, b, x):
     text = []
     for char in x:
@@ -123,7 +87,7 @@ def eAfiniczny(a, b, x):
             text.append(alfabet[((alfabet.index(char) * int(a)) + int(b)) % 26])
         else:
             text.append(char)
-    writeCrypt("".join(text))
+    write_file("".join(text), "crypto.txt")
 
 
 def dAfiniczny(a, b, y):
@@ -137,12 +101,12 @@ def dAfiniczny(a, b, y):
             text.append(alfabet[(a_inv * (alfabet.index(char) - int(b))) % 26])
         else:
             text.append(char)
-    writeDecrypt("".join(text))
+    write_file("".join(text), "decrypt.txt")
 
 
 def jAfiniczny():
-    plain = readPlain()
-    crypto = readCrypto()
+    plain = read_file("plain.txt")
+    crypto = read_file("crypto.txt")
 
     for p, c in zip(plain, crypto):
         if p in alfabet and c in alfabet:
@@ -164,7 +128,7 @@ def jAfiniczny():
 
 
 def kAfiniczny():
-    crypto = readCrypto()
+    crypto = read_file("crypto.txt")
     possible_a = [a for a in range(1, 26, 2) if mod_inverse(a, 26) is not None]
     try:
         with open("extra.txt", "w") as extra:
@@ -181,17 +145,16 @@ def kAfiniczny():
     except OSError as e:
         print(f"Wystąpił błąd podczas zapisywania do pliku: {e}")
         sys.exit(1)
-
 # endregion
 
 # szyfr cezara
 if sys.argv[1] == "-c":
     if sys.argv[2] == "-e":
         print("Szyfrowanie cezara")
-        eCezar(readKey()[0], readPlain())
+        eCezar(read_file("key.txt")[0], read_file("plain.txt"))
     elif sys.argv[2] == "-d":
         print("Odszyfrowywanie cezara")
-        dCezar(readKey()[0], readCrypto())
+        dCezar(read_file("key.txt")[0], read_file("crypto.txt"))
     elif sys.argv[2] == "-j":
         print("Kryptoanaliza Cezara z tekstem jawnym")
         jCezar()
@@ -204,12 +167,12 @@ if sys.argv[1] == "-c":
 elif sys.argv[1] == "-a":
     if sys.argv[2] == "-e":
         print("Szyfrowanie afiniczne")
-        keys = readKey()
-        eAfiniczny(keys[0], keys[1], readPlain())
+        keys = read_file("key.txt")
+        eAfiniczny(keys[0], keys[2], read_file("plain.txt"))
     elif sys.argv[2] == "-d":
         print("Odszyfrowywanie afiniczne")
-        keys = readKey()
-        dAfiniczny(keys[0], keys[1], readCrypto())
+        keys = read_file("key.txt")
+        dAfiniczny(keys[0], keys[2], read_file("crypto.txt"))
     elif sys.argv[2] == "-j":
         print("Kryptoanaliza afiniczna z tekstem jawnym")
         jAfiniczny()
