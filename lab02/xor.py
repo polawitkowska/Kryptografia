@@ -9,7 +9,7 @@ def prepare_file():
   with open("orig.txt", "r", encoding="utf-8") as file:
     text = file.read()
 
-  line_length = 32
+  line_length = 64
   text = ' '.join(text.splitlines())
   filtered_text = ''.join(char for char in text if char.isalpha() or char.isspace()).lower()
 
@@ -44,10 +44,14 @@ def encrypt_file():
   with open("key.txt", "r", encoding="utf-8") as file:
     key = file.read().strip()
 
+  if len(key) != 64:
+    print("Key must be 64 bytes long.")
+    return
+
   encrypted_lines = []
   for line in plaintext.splitlines():
-    if len(line) > 32:
-      print("Line exceeds 32 characters. Please check your input.")
+    if len(line) > 64:
+      print("Line exceeds 64 characters. Please check your input.")
       return
     
     encrypted_line = []
@@ -76,7 +80,7 @@ def cryptoanalysis():
   with open("crypto.txt", "r", encoding="utf-8") as file:
     encrypted_lines = file.readlines()
     
-  key_length = 32  
+  key_length = 64 
   possible_key = bytearray([0] * key_length)
   decoded_lines = [base64.b64decode(line.strip()) for line in encrypted_lines]
 
