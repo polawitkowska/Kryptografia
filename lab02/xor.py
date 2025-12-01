@@ -1,4 +1,7 @@
-# Autorem tego zadania jest Pola Witkowska indeks: 292685
+""" 
+Autorem tego zadania jest Pola Witkowska
+"""
+
 import os, argparse, base64
 
 def prepare_file():
