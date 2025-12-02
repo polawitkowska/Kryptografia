@@ -1,16 +1,32 @@
 # Uwagi do rozwiązania
 
-Program należy uruchomić wpisując w terminal:
+### Zadanie 1:
+
+Program należy uruchomić komendą:
+
+```bash
+bash ./skrypt.sh
+```
+
+Program potrzebuje pliku `personal.txt`, aby działać.
+
+Zadanie otrzymałam **20/20 pkt**.
+
+---
+
+### Zadanie 2:
+
+Program należy uruchomić komendą:
 
 ```bash
 python diff.py
 ```
 
-- Program potrzebuje plików `hash-.pdf` oraz `personal.txt`, aby działać.
+Program potrzebuje plików `hash-.pdf` oraz `personal.txt`, aby działać.
 
 ---
 
-# Treść zadania
+# Treść zadań
 
 Dwie najpopularniejsze i najczęściej używane funkcje skrótu to **md5** oraz **sha-1**. Na wielu systemach są one dostępne bez dodatkowych instalacji, na komputerze sigma polecenia brzmią `md5sum` oraz `sha1sum`. Pierwsza z tych funkcji zwraca skrót 128-bitowy, druga 160-bitowy. Standard SHA udostępnia wiele dalszych funkcji: `sha224sum`, `sha256sum`, `sha384sum`, `sha512sum`, dających coraz dłuższe skróty. Inna funkcja skrótu to `b2sum`. Skróty zapisywane są w systemie szesnastkowym (bez dodatkowych wyjaśnień, że chodzi o ten system zapisu).
 
