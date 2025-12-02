@@ -1,0 +1,41 @@
+cat hash-.pdf personal.txt | md5sum
+cat hash-.pdf personal_.txt | md5sum
+c7b7ed2002a22aed2d80c1f5e10957e8
+bc2ff6bd54e79117f70c4568ad3334a5
+Liczba różniących się bitów: 67 z 128, procentowo: 52%.
+
+cat hash-.pdf personal.txt | sha1sum
+cat hash-.pdf personal_.txt | sha1sum
+7e0051925241ebfa3cc6b1d5aca2a7d900d91541
+d58ff3ce246b62ddd4e85bcc1b32e08a7ba33f5a
+Liczba różniących się bitów: 82 z 160, procentowo: 51%.
+
+cat hash-.pdf personal.txt | sha224sum
+cat hash-.pdf personal_.txt | sha224sum
+f417efa77d0c223d2bd22fbbed402b67a5e950d20f935f4912457673
+d8220a1cbf377831eb3daca4119ae135af37ed69388c65532f94a981
+Liczba różniących się bitów: 125 z 224, procentowo: 55%.
+
+cat hash-.pdf personal.txt | sha256sum
+cat hash-.pdf personal_.txt | sha256sum
+f1d86d75be3d7895335aeb83a3f3bb7e4e17e947b4991451b347cd6f504e5f2f
+3c302bef9bbb2f633368c2698a205175594d7ee95583b6352d8dbff88a5249ec
+Liczba różniących się bitów: 124 z 256, procentowo: 48%.
+
+cat hash-.pdf personal.txt | sha384sum
+cat hash-.pdf personal_.txt | sha384sum
+1960c9794c735242c341de8a6343060d2a9bb281170120b02195d696dd9b9386a141f5fd5b017d6a1527aa7923cd9621
+f0dc2f53651170e0d82ab5a8327cdbd0c4ccc73243d5a4348c888510121bf19a54619522f9cda9c6b8db07578aa3e9ec
+Liczba różniących się bitów: 199 z 384, procentowo: 51%.
+
+cat hash-.pdf personal.txt | sha512sum
+cat hash-.pdf personal_.txt | sha512sum
+2d71198f138f849646e0f299fffe2bdcc3e24f90217480eec2f87edf06d6218a38eadb2b5652c295db83f81b6be3da44cded3c49c5210f28c1d062b14e2d5aef
+2ab14825ffead43a777ef8972413955ee498db89cafb17577b3338ae7b1d98920aebfe1b87476d96d7bcaca5cacdc5476299b7534a0996c98d3339d338dea4f2
+Liczba różniących się bitów: 256 z 512, procentowo: 50%.
+
+cat hash-.pdf personal.txt | b2sum
+cat hash-.pdf personal_.txt | b2sum
+d1fb0cb7f602f18cf5a9e9ae47495ce377317c7e4c3d10fea45f09edeffe1adced8ce809851d6f08d56d1e10453adf465287d410ceee2c4afaa2c7402ea63502
+0e3051f353b4dabd8985069980c0cc0cc023fcf9077ad0d3fe79d78c0e80711cdf67c9591ff8116aab8e22912c8404acaf46be79324f22c4b1fb526c43ba105e
+Liczba różniących się bitów: 265 z 512, procentowo: 51%.
