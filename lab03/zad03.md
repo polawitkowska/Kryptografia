@@ -1,3 +1,13 @@
+# Uwagi do rozwiązania:
+
+Program należy uruchomić wpisując w terminal:
+
+```bash
+python block.py
+```
+
+- Program potrzebuje pliku `plain.bpm` aby działać.
+
 # Treść zadania
 
 Na wykładzie (slajdy 7–14) przedstawiono kilka trybów szyfrów blokowych, z czego nas będzie interesować w tej chwili:
