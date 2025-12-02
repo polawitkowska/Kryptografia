@@ -54,8 +54,7 @@ def run_task():
         for hash_name, cmd_name, _ in algos:
             h = hashlib.new(hash_name)
             h.update(personal_bytes)
-            # Format wyjścia podobny do narzędzi systemowych: HASH  nazwa_pliku
-            out_hash.write(f"{h.hexdigest()}  personal.txt ({cmd_name})\n")
+            out_hash.write(f"{h.hexdigest()}\n")
     
     print("Zapisano wyniki do hash.txt.")
 

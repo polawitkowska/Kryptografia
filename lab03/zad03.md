@@ -8,6 +8,8 @@ python block.py
 
 - Program potrzebuje pliku `plain.bpm` aby działać.
 
+Za zadanie otrzymałam **100/100 pkt**.
+
 # Treść zadania
 
 Na wykładzie (slajdy 7–14) przedstawiono kilka trybów szyfrów blokowych, z czego nas będzie interesować w tej chwili:
