@@ -6,14 +6,12 @@ import hashlib
 import os
 
 def count_diff_bits(hex1, hex2):
-    """Liczy liczbę różniących się bitów między dwoma ciągami szesnastkowymi."""
     val1 = int(hex1, 16)
     val2 = int(hex2, 16)
     diff = val1 ^ val2
     return bin(diff).count('1')
 
 def create_personal_files():
-    """Tworzy wymagane pliki tekstowe."""
     name = "Jan Kowalski"
     
     # 1. personal.txt - tylko imię i nazwisko
