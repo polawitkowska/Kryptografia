@@ -1,3 +1,5 @@
+"""Autorem tego zadania jest Pola Witkowska"""
+
 import hashlib
 import os
 import binascii

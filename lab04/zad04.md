@@ -10,7 +10,7 @@ bash ./skrypt.sh
 
 Program potrzebuje pliku `personal.txt`, aby działać.
 
-Zadanie otrzymałam **20/20 pkt**.
+Za zadanie otrzymałam **20/20 pkt**.
 
 ---
 
@@ -62,7 +62,7 @@ Funkcje skrótu mogą również czytać dane wejściowe ze standardowego wejści
 
 1. Przygotuj plik `personal.txt` zawierający imię i nazwisko. Oblicz wszystkie funkcje skrótu na tym pliku, wyniki zapisz do pliku `hash.txt` w kolejności coraz dłuższych skrótów.
 
-2. Przygotuj drugą wersję pliku `personal_.txt`, różniącą się jedynie dodatkowym pustym wierszem na końcu. Oblicz wartość wszystkich funkcji skrótu dla obu wersji pliku połączonego z tym samym plikiem wykładu `hash-.pdf` (tzn. wykonaj polecenia:
+2. Przygotuj drugą wersję pliku `personal_.txt`, różniącą się jedynie dodatkowym pustym wierszem na końcu. Oblicz wartość wszystkich funkcji skrótu dla obu wersji pliku połączonego z tym samym plikiem wykładu `hash-.pdf` (tzn. wykonaj polecenia:)
 
    ```bash
    cat hash-.pdf personal.txt | md5sum >> hash.txt
